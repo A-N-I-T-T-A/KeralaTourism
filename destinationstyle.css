@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flow-root;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+    background-size: cover;
+    background-position: center;
+}
+div{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+
+.container {
+    width: 950px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.header{
+    display: table-cell;
+    position: static;
+    float: left;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0;
+    background-color: rgb(0, 0, 128);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+.header-container {
+    position: relative;
+}
+.logo-container{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.logo{
+    padding: 18px 0;
+    width: 75%;
+}
+.navigation{
+    font-size: 16px;
+    float: right;
+    font-family: 'Oswald';
+    font-weight: bolder;
+    width: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+    float: right;
+    margin: 18px 0 10px 0;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+    line-height: 80px;
+    margin-right: 100px;
+}
+.navigation li {
+    width: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+    float: left;
+}
+.navigation li a {
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+    margin: 0; 
+}
+ul{
+    margin-left: 0px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.title-bar{
+    width: 100%;
+    background: #1b2f53;
+    height: 60px;
+    margin-top: 150px;
+    position: relative;
+}
+.title-bar .title-text{
+    position: absolute;
+    padding-left: 15px;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.title-text h2{
+    opacity: .7;
+}
+.title-text a{
+    text-decoration: none;
+    color: white;
+    opacity: .7;
+    font-family: Merriweather,serif;
+}
+.about-area{
+    width: 100%;
+    height: 1300px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+}
+.about-area .gallery{
+    position: relative;
+    position: absolute;
+    right: 80px;
+    width: 500px;
+    height: auto;
+}
+.gallery .gallery-head{
+    text-align: center;
+    color: rgb(34, 2, 90);
+    padding: 15px;
+}
+.gallery .image1, .image2, .image3, .image4, .image5{
+    padding-bottom: 15px;
+    padding-left: 50px;
+}
+
+.about{
+    position: absolute;
+    left: 0px;
+    width: 950px;
+    height: auto;
+    text-align: center;
+}
+.about .sub-image{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.about .sub-about{
+    text-align: justify;
+    padding: 0 130px;
+    padding-bottom: 30px;
+}
+.about .location{
+    margin-top: 50px;
+}
+.center{
+    text-align: center;
+}
+.pagination{
+    display: inline-block;
+    backdrop-filter: blur(10px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    font-size: 20px;
+    margin: 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.pagination a:hover:not(.active) {background-color: orange;}
+
+.footer-section .container{
+    background-color:#e3e7f1;
+    height: 200px;
+    margin-top: 50px;
+    padding-top: 30px;
+    width: 100%;
+}
+.footer-section [class*=column] {
+    float: left;
+}
+.footer-list{
+    min-height: 120px;
+    padding-left: 0;
+}
+.footer-list li{
+    font-size: medium;
+}
+.footer-list a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Quicksand'
+}
+.column{
+    padding-left: 40px;
+    padding-right: 80px;
+}
+.footer-section .column h3{
+    color: navy; font-family: monospace;font-weight:lighter;
+}
+.text-center{
+    width: 100%;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.text-center h3,p{
+    font-size: smaller;
+    padding: 5px;
+}
+.social{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin-top: 10px;
+}
+.social div{
+    margin: 15px;
+    font-size: 30px;
+    text-align: center;
+}
